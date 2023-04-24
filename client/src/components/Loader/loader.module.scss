@@ -1,0 +1,20 @@
+.root {
+  svg {
+    display: flex;
+    width: 150px;
+    margin: 50px auto;
+    overflow: visible;
+  }
+  .hammer {
+    animation: 1s infinite alternate xxx;
+  }
+}
+
+@keyframes xxx {
+  from {
+    transform: translateX(-5px) rotateZ(-7deg);
+  }
+  to {
+    transform: translateX(12px) rotateZ(10deg);
+  }
+}

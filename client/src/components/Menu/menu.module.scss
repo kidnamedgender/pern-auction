@@ -1,0 +1,38 @@
+.root {
+  .menu__items {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-width: 7px 1px 1px 1px;
+    border-style: solid;
+    border-color: #040035;
+
+    li {
+      display: inline;
+      height: 80px;
+      width: 100%;
+
+      text-align: center;
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+
+      line-height: 75px;
+
+      background: linear-gradient(180deg, #eae3e3 48.96%, #8a97b0 97.4%, #375a9d 100%);
+      border-left: 1px solid #000000;
+
+      cursor: pointer;
+
+      &:first-child {
+        border: none;
+      }
+      &:hover {
+        background: linear-gradient(180deg, #eae3e3 48.96%, #9ea9c0 97.4%, #375a9d 100%);
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 1280px;
+  min-height: 1080px;
+
+  margin: 65px auto;
+
+  background-color: #ffffff;
+  box-shadow: 18px 12px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  .content {
+    max-width: 1140px;
+    padding: 40px 0;
+    margin: 0 auto;
+  }
+}

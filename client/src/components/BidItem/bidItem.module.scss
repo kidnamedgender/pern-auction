@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #000000;
+  i {
+    font-size: 21px;
+    font-weight: 500;
+    border-bottom: 1px solid #22499c;
+
+    color: #22499c;
+    cursor: pointer;
+  }
+  b {
+    font-size: 24px;
+  }
+}

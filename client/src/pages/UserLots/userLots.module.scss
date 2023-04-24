@@ -1,0 +1,9 @@
+.root {
+  .lots__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 70px;
+  }
+}

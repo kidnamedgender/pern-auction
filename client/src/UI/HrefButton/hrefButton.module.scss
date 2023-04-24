@@ -1,0 +1,12 @@
+.root {
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #22499c;
+
+  color: #22499c;
+  cursor: pointer;
+
+  &:hover {
+    color: #692ff0;
+  }
+}

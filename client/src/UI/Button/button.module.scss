@@ -1,0 +1,43 @@
+.root {
+  display: block;
+  width: 100%;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 73, 156, 0.2) 0%,
+    #22499c 50%,
+    rgba(34, 73, 156, 0.7) 100%
+  );
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #000000;
+  text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0),
+    -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+  -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0),
+    -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+  -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0),
+    -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(34, 73, 156, 0.2) 0%,
+      #4568b4 50%,
+      rgba(93, 117, 168, 0.7) 100%
+    );
+  }
+}

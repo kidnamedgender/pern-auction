@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 100px 0;
+  img {
+    width: 80%;
+  }
+  h1 {
+    font-weight: 500;
+    width: 450px;
+  }
+}
