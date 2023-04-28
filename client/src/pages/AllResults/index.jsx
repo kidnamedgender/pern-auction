@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import cls from './allResults.module.scss';
 
+import ErrorBlock from '../../components/ErrorBlock';
+import EmptyBlock from '../../components/EmptyBlock';
 import Loader from '../../components/Loader';
 import Title from '../../components/Title';
 import MyLotItem from '../../components/UserLotItem';
@@ -57,10 +59,11 @@ const AllResults = () => {
   return (
     <div className={cls.root}>
       <Title hTitle="История сделок" />
-      <div class={cls.sort__list}>
+      <div className={cls.sort__list}>
         <ul>
           {sortTypes.map((type) => (
             <li
+              key={type}
               onClick={() => changeSortHandler(type)}
               className={currentSortType === type ? cls.active : ''}>
               {type}
